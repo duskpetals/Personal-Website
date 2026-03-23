@@ -1,0 +1,91 @@
+/* Social icons */
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+/* Pink background utility */
+.bg-rose {
+  background-color: #b56586 !important;
+}
+
+/*  Pastel green header color */
+.bg-pastel-pink {
+  background-color: #d1a3b9 !important; /* soft pastel green */
+}
+
+body {
+  background-color: #ffe4f2;
+}
+
+/* --- Footer styles --- */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 1020;
+}
+
+/* --- Rain sound button --- */
+.rain-control {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2000;
+}
+
+/* --- Link colors --- */
+a:link {
+  color: #615a5d;
+}
+a:visited {
+  color: #f7f7f7;
+}
+a:hover {
+  color: #cf9bba;
+  text-decoration: underline;
+}
+a:active {
+  color: #bb1c6b;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 1024px) {
+  header .container {
+    padding-top: 2rem;
+  }
+}
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 320px) {
+  .navbar-brand span {
+    display: none;
+  }
+}
